@@ -1,0 +1,157 @@
+#Navigation
+{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+}
+.img1
+{
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 10px;
+}
+ul
+{
+    width: 1280px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+}
+li
+{
+    margin-left: 40px;
+    position: relative;
+    bottom: 25px;
+    right: 200px;
+}
+.a {
+    display: block;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #696969;
+    font-size: 17px;
+    font-weight: 700;
+}
+.a:hover
+{
+    color: #000000;
+}
+.a::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    margin-top: 10px;
+    background-color: black;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: all 300ms ease 0s;
+}
+.a:hover::after {
+    transform: scaleX(1);
+}
+/*.div1
+{
+    width: 100%;
+    height: 357px;
+    background-color: #222222;
+    display: flex;
+}
+.controlimg
+{
+    width: 99%;
+    margin-top: 4px;
+    position: absolute;
+}
+.divimg
+{
+    width: 99%;
+    height: 346px;
+    position: relative;
+}
+.h3position
+{
+    position: absolute;
+    color: white;
+    text-align: center;
+}
+.pposition
+{
+    position: absolute;
+    color: antiquewhite;
+    text-align: center;
+}*/
+.container-fluid1
+{
+    width: 100%;
+    height: 360px;
+    background-color: #222222;
+}
+.imgw
+{
+    margin-top: 8px;
+    width: 100%;
+    transition: all 300ms linear 0s;
+    filter: brightness(70%);
+}
+.imgw:hover
+{
+    filter: brightness(100%);
+}
+.h3
+{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+.content1
+{
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+    transform: translate(-50%, 0);
+    left: 50%;
+    padding: 5% 0 0 0;
+}
+.ata
+{
+    text-decoration: none;
+}
+.pcolor
+{
+    color: #9e9c9c;
+}
+.container-fluid2
+{
+    margin-top: 5px;
+}
+.img22
+{
+    width: 100%;
+    transition: all 300ms linear 0s;
+    filter: brightness(70%);
+}
+.img22:hover
+{
+    filter: brightness(100%);
+}
+.fleximg1
+{
+    width: 665px;
+    height: 251px;
+    margin-left: 5px;
+}
+.fleximg2
+{
+    width: 331px;
+    height: 123px;
+}
+.imgbottom
+{
+    margin-bottom: 5px;
+}
+.padding1
+{
+    padding: 0px;
+}
